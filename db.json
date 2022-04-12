@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "email": "helena@email.com",
+      "password": "batatafrita123",
+      "nome": "Helena",
+      "id": 1
+    },
+    {
+      "email": "caique@email.com",
+      "password": "$2a$10$nvAVUWKppc7gWcTUd1oCdur4YiA/Sctsg/ZQuGHXpH.jFbcnceU5i",
+      "nome": "Caique",
+      "id": 2
+    },
+    {
+      "email": "heleninha@email.com",
+      "password": "$2a$10$hvp2arva8.jtlgpcXNuk5uAuBp/0KgeBf4uG2DeZ0Ra3VZUnCt.wa",
+      "nome": "Helenão",
+      "id": 3
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "imagem": "assets/img/jogo1.png",
+      "nome": "The Last of Us",
+      "preco": "R$ 150,00"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/jogo2.png",
+      "nome": "Fifa 22",
+      "preco": "R$ 130,00"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/jogo3.png",
+      "nome": "GTA The Trilogy",
+      "preco": "R$ 160,00"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/jogo4.png",
+      "nome": "BackBlood 4",
+      "preco": "R$ 200,00"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/img/jogo5.png",
+      "nome": "Farcry 6",
+      "preco": "R$ 200,00"
+    },
+    {
+      "id": 6,
+      "imagem": "assets/img/jogo6.png",
+      "nome": "Horizon",
+      "preco": "R$ 170,00"
+    },
+    {
+      "imagem": "assets/img/jogo7.png",
+      "nome": "GTA Xbox",
+      "preco": "R$ 210,00",
+      "id": 7
+    }
+  ]
+}

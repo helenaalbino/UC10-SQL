@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.bg-blue{
+    background-color: #00A7E1;
+}
+
+.header-2{
+    background-color: #6D6A75;
+}
+
+.container-grid{
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.barras{
+    width: 30px;
+    display: none;
+}
+
+.icon-search{
+    display: none;
+}
+
+.posicionamento-header{
+    position: relative;
+}
+
+.menu{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-pesquisa{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6D6A75;
+    padding: 10px;  
+    align-items: center;
+}
+
+.menu-2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.image-space{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    
+
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    header{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .barras{
+        display: inline-block;
+    }
+
+    .menu-2{
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+    }
+
+    .icon-menu{
+        display: none;
+    }
+
+    .icon-search{
+        display: inline-block;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .mobile-setting{
+        height: 230px;
+        position: relative;
+    }
+
+    .mobile-bottom{
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .mobile-middle{
+        position: absolute;
+        top: 50px;
+    }
+
+    .mobile-top{
+        position: absolute;
+        text-align: center;
+        top: 0px;
+    }
+    
+    .menu-ativo{
+        display: flex;
+    }
+
+}

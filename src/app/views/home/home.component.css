@@ -1,0 +1,163 @@
+.produtos p{
+    text-align: center;
+}
+
+#carrossel img{
+    display: none;
+}
+
+.carrossel-size img{
+    width: 100%;
+}
+
+.banner-ativo{
+    display: flex;
+}
+
+.banner{
+    height: 600px;
+    /* background-image: url(..assets/img/banner.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flecha-banner-esquerda{
+    text-align: left;
+    flex: 1;
+    display: table-cell;
+}
+
+.flecha-banner-direita{
+    text-align: right;
+    display: table-cell;
+}
+
+.secao-lancamento{
+    background-color: #007198;
+    padding-bottom: 30px;
+}
+
+.secao-mais-vendidos{
+    background-color: #007198;
+    padding-bottom: 30px;
+}
+
+.secao-pagamento{
+    background-color: #6D6A75;
+    padding-bottom: 30px;
+}
+
+.secao-pagamento img{
+    height: 30px;
+}
+
+section h2{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+section h3{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.jogos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+
+.pagamento{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+
+.jogos img{
+    width: 200px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .jogos img{
+        width: 100px;
+    }
+
+    .banner{
+        height: 500px;
+    }
+
+    .menu-2{
+        width: 100%;
+    }
+
+    .secao-pagamento div{
+        width: 80%;
+    }
+
+    .banner{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .jogos img{
+        width: 100px;
+    }
+
+    .banner{
+        height: 300px;
+    }
+
+    .secao-pagamento div{
+        width: 100%;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .mobile-setting{
+        height: 230px;
+        position: relative;
+    }
+
+    .mobile-bottom{
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .mobile-middle{
+        position: absolute;
+        top: 50px;
+    }
+
+    .mobile-top{
+        position: absolute;
+        text-align: center;
+        top: 0px;
+    }
+    
+    .menu-ativo{
+        display: flex;
+    }
+
+}

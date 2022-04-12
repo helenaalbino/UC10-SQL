@@ -1,0 +1,59 @@
+<ngb-carousel>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/img/banner1.png" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/img/banner2.png" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets/img/banner3.png" alt="Random third slide">
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+<section class="secao-lancamento">
+    <h2>Lançamentos</h2>
+    <div class="jogos">
+      <div *ngFor="let produtos of listaProdutos" class="produtos">
+        <a href=""><img [src]=produtos.imagem></a>
+        <h3>{{produtos.nome}}</h3>
+        <p>{{produtos.preco}}</p>
+      </div>  
+    </div>
+</section>
+
+<section class="secao-mais-vendidos">
+    <h2>Mais vendidos</h2>
+    <div class="jogos">
+        <a href=""><img src="assets/img/jogo5.png"></a>
+        <a href=""><img src="assets/img/jogo6.png"></a>
+        <a href=""><img src="assets/img/jogo7.png"></a>
+        <a href=""><img src="assets/img/jogo8.png"></a>
+    </div>
+</section>
+
+<section class="secao-pagamento">
+    <h3>Formas de pagamento</h3>
+        <div class="pagamento">
+            <img src="assets/img/payment/img1.png">
+            <img src="assets/img/payment/img2.png">
+            <img src="assets/img/payment/img3.png">
+            <img src="assets/img/payment/img4.png">
+            <img src="assets/img/payment/img5.png">
+            <img src="assets/img/payment/img6.png">
+            <img src="assets/img/payment/img7.png">
+            <img src="assets/img/payment/img8.png">
+            <img src="assets/img/payment/img9.png">
+        </div>
+</section>

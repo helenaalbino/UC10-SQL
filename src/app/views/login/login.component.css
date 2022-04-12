@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #00A7E1;
+}
+
+.header-2{
+    background-color: #6D6A75;
+}
+
+.container-grid{
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.menu{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-pesquisa{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6D6A75;
+    padding: 10px;  
+    align-items: center;
+}
+
+.menu-2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.image-space{
+    margin-right: 10px;
+}
+
+#carrossel img{
+    display: none;
+}
+
+.carrossel-size img{
+    width: 100%;
+}
+
+.banner-ativo{
+    display: flex;
+}
+
+.banner{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flecha-banner-esquerda{
+    text-align: left;
+    flex: 1;
+    display: table-cell;
+}
+
+.flecha-banner-direita{
+    text-align: right;
+    display: table-cell;
+}
+
+.secao-login{
+    background-color: #007198;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.login{
+    border-radius: 10px;
+    background-color: #00A7E1;
+    width: 300px;
+    padding: 30px;
+}
+
+.login a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container-login{
+    display: flex;
+    justify-content: center;
+}
+
+.secao-mais-vendidos{
+    background-color: #007198;
+    padding-bottom: 30px;
+}
+
+.secao-pagamento{
+    background-color: #6D6A75;
+    padding-bottom: 30px;
+}
+
+.secao-pagamento div{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secao-pagamento img{
+    height: 30px;
+}
+
+section h2{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+section h3{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.jogos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jogos img{
+    width: 200px;
+}
+
+.barras{
+    width: 30px;
+    display: none;
+}
+
+.icon-search{
+    display: none;
+}
+
+.posicionamento-header{
+    position: relative;
+}
+
+footer{
+    background-color: #00A7E1;
+    padding-top: 30px;
+    padding: 15px 50px 30px 50px;
+}
+
+footer p{
+    margin: 0 0 0 0;
+}
+
+footer h4{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer a{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+footer img{
+    height: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    
+
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .jogos img{
+        width: 100px;
+    }
+
+    .banner{
+        height: 500px;
+    }
+
+    .menu-2{
+        width: 100%;
+    }
+
+    .secao-pagamento div{
+        width: 80%;
+    }
+
+    .banner{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .barras{
+        display: inline-block;
+    }
+
+    .menu-2{
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+    }
+
+    .icon-menu{
+        display: none;
+    }
+
+    .icon-search{
+        display: inline-block;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .jogos img{
+        width: 100px;
+    }
+
+    .banner{
+        height: 300px;
+    }
+
+    .secao-pagamento div{
+        width: 100%;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .mobile-setting{
+        height: 230px;
+        position: relative;
+    }
+
+    .mobile-bottom{
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .mobile-middle{
+        position: absolute;
+        top: 50px;
+    }
+
+    .mobile-top{
+        position: absolute;
+        text-align: center;
+        top: 0px;
+    }
+    
+    .menu-ativo{
+        display: flex;
+    }
+
+}
